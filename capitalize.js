@@ -2,4 +2,9 @@ function capitalize(input) {
   return input.toUpperCase();
 }
 
-export { capitalize };
+export {capitalize};
+
+
+function a () {
+  return 'sajdf';
+}
