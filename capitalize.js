@@ -3,8 +3,3 @@ function capitalize(input) {
 }
 
 export {capitalize};
-
-
-function a () {
-  return 'sajdf';
-}
