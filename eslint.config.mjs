@@ -4,6 +4,6 @@ import pluginJs from "@eslint/js";
 
 /** @type {import('eslint').Linter.Config[]} */
 export default [
-  {languageOptions: { globals: globals.browser }}, {ignores: ["*.test.js", "*.spec.js"]},
+  {languageOptions: { globals: globals.browser }}, {ignores: ["**/*.test.js", "**/*.spec.js"]},
   pluginJs.configs.recommended,
 ];
