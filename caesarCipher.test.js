@@ -1,10 +1,10 @@
 import { caesarCipher } from "./caesarCipher.js";
 
-it('Alphabetically shift the letters in a string by 3', () => {
+it('Alphabetically shifts the letters in a string by 3', () => {
   expect(caesarCipher('axyz', 3)).toBe('dabc');
 });
 
-it('Alphabetically shift the letters in a string by 10', () => {
+it('Alphabetically shifts the letters in a string by 10', () => {
   expect(caesarCipher('axyz', 10)).toBe('khij');
 });
 
