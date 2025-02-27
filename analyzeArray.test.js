@@ -5,5 +5,9 @@ it('Return average', () => {
 })
 
 it('Return min', () => {
-  expect(analyzeArray([1,8,3,4,2,6]).min).toBe(0);
+  expect(analyzeArray([8,1,3,4,2,6]).min).toBe(1);
+})
+
+it('Return average', () => {
+  expect(analyzeArray([1,8,3,4,2,6]).max).toBe(8);
 })
