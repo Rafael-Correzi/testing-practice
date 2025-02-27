@@ -8,6 +8,9 @@ it('Alphabetically shifts the letters in a string by 10', () => {
   expect(caesarCipher('axyz', 10)).toBe('khij');
 });
 
+it('Alphabetically shifts the letters in a string by 26 (equivalent to 0 shift)', () => {
+  expect(caesarCipher('axyz', 26)).toBe('axyz');
+})
 
 it('Does not shift numbers', () => {
   expect(caesarCipher('10', 10)).toBe('10');
